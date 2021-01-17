@@ -7,14 +7,14 @@ section {
   padding: 25px;
 }
 
-/* .card-container {
+.card-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   padding: 40px;
-} */
+}
 
 .card {
-  flex-flow: wrap;
+  flex: 1 1 100px;
   margin: 10px;
   border: 1px solid lightblue;
   box-shadow: 10px 10px black
@@ -33,6 +33,7 @@ section {
 .card h3 {
   text-align: left;
   background-color: gray;
-  
+  color: yellow;
+
   
 }
