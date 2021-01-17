@@ -3,7 +3,11 @@ body {
   background-color:rgb(178, 235, 230);
   text-align: justify;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 50px;
+  padding: 0px;
+  margin: 0;
+
+  display: inline-flex;
+  
 }
 
 section {
@@ -12,7 +16,7 @@ section {
 
 h2 {
   text-align: center;
-  border: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
 }
 
 h3 {
@@ -48,5 +52,4 @@ img {
   margin: 10px;
   border: 1px solid lightblue;
   box-shadow: 10px 10px rgb(16, 10, 112);
-  text-justify:;
 }
