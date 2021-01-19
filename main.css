@@ -5,25 +5,34 @@ body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0px;
   margin: 0;
-
   display: inline-flex;
   
 }
 
+footer {
+  font-size: smaller;
+}
+
 section {
   padding: 10px;
+  margin: 0%;
 }
 
 h2 {
   text-align: center;
   border-bottom: 1px solid lightblue;
+  margin: 5%;
 }
 
 h3 {
   text-align: left;
   background-color: gray;
   color: yellow;
-  margin: auto;
+  margin: 0;
+}
+
+h4 {
+  margin: 0%;
 }
 
 p {
