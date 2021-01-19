@@ -6,7 +6,6 @@ body {
   padding: 0px;
   margin: 0;
   display: inline-flex;
-  
 }
 
 footer {
@@ -16,12 +15,14 @@ footer {
 section {
   padding: 10px;
   margin: 0%;
+  font-weight: bolder;
 }
 
 h2 {
   text-align: center;
-  border-bottom: 1px solid lightblue;
-  margin: 5%;
+  border: 1px solid lightblue;
+  border-top: 0;
+  margin: 0%;
 }
 
 h3 {
@@ -51,7 +52,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  padding: 40px;
+  /* padding-top: 40px; */
 }
 
 .card {
@@ -61,4 +62,8 @@ img {
   margin: 10px;
   border: 1px solid lightblue;
   box-shadow: 10px 10px rgb(16, 10, 112);
+}
+
+.description{
+  font-weight:normal;
 }
