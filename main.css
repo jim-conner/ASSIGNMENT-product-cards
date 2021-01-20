@@ -1,6 +1,6 @@
 
 body {
-  background-color:rgb(178, 235, 230);
+  background-color:#512DA8;
   text-align: justify;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0px;
@@ -27,8 +27,8 @@ h2 {
 
 h3 {
   text-align: left;
-  background-color: gray;
-  color: yellow;
+  background-color: #673AB7;
+  color: #8BC34A;
   margin: 0;
 }
 
@@ -48,22 +48,32 @@ img {
 }
 
 .card-container {
+  background-color:#512DA8;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  /* padding-top: 40px; */
+  margin: 0px;
 }
 
 .card {
-  background-color: white;
+  background-color: #D1C4E9;
   flex: 1 0 calc(25%);
   max-width: calc(50%);
   margin: 10px;
-  border: 1px solid lightblue;
+  border: 5px solid #212121;;
   box-shadow: 10px 10px rgb(16, 10, 112);
 }
 
 .description{
   font-weight:normal;
 }
+
+/* .dark-primary-color    { background: #512DA8; }
+.default-primary-color { background: #673AB7; }
+.light-primary-color   { background: #D1C4E9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #8BC34A; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; } */
