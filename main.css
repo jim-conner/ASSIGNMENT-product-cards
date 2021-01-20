@@ -1,11 +1,21 @@
 
+@font-face {
+  font-family: 'providence-bold';
+  src: url('https://ufonts.com/download/providence-bold.html');
+}
+
+#newfont {
+  font-family: 'providence-bold';
+}
+
 body {
   background-color:#512DA8;
+  font-family: 'providence-bold';
   text-align: justify;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0px;
   margin: 0;
   display: inline-flex;
+
 }
 
 footer {
@@ -68,12 +78,3 @@ img {
 .description{
   font-weight:normal;
 }
-
-/* .dark-primary-color    { background: #512DA8; }
-.default-primary-color { background: #673AB7; }
-.light-primary-color   { background: #D1C4E9; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #8BC34A; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; } */
