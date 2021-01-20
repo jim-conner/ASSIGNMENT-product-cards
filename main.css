@@ -12,7 +12,7 @@ body {
   background-color:#512DA8;
   font-family: 'providence-bold';
   text-align: justify;
-  padding: 0px;
+  padding: 20px;
   margin: 0;
   display: inline-flex;
 
@@ -64,6 +64,7 @@ img {
   flex-flow: row wrap;
   list-style: none;
   margin: 0px;
+ 
 }
 
 .card {
@@ -75,6 +76,24 @@ img {
   box-shadow: 10px 10px rgb(16, 10, 112);
 }
 
-.description{
+.container-img {
+  position: relative;
+  align-self: center;
+
+}
+.img1 {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+.img2 {
+  position: relative;
+}
+
+.description {
   font-weight:normal;
 }
